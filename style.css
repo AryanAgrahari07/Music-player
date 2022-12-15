@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 7, 79, 0.9335084375547094) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+nav ul {
+    display: flex;
+    background-color: black;
+    height: 75px;
+    align-items: center;
+}
+
+nav ul li {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    list-style: none;
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin: 0px 20px;
+    font-size: 17px;
+    align-items: center;
+    /* background-color: firebrick */
+}
+
+.logo img {
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+}
+
+.brandname {
+    color: aquamarine;
+    font-size: 26px;
+    margin-left: 25px;
+    margin-right: 85px;
+    /* font-family: 'Satisfy', cursive; */
+}
+
+.logo {
+    margin: 0px 10px 0px 10px;
+    font-weight: bolder;
+    font-size: large;
+    align-items: center;
+}
+
+.container {
+    background-color: aquamarine;
+    color: aliceblue;
+    display: flex;
+    min-height: 75vh;
+    width: 70vw;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: url("hpbg.webp");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons i {
+    margin: 5px 15px;
+    color: white;
+}
+
+.songItem {
+    width: 35%;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.songItem img {
+    width: 25px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+.songListplay {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+}
+
+.timestamp {
+    margin: 0px 10px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songname {
+    position: absolute;
+    left: 10vw;
+    top: 7vh;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.songname img {
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+.heading {
+    color: rgba(255, 7, 79, 0.9335084375547094)
+}
